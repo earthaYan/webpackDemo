@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myFont;
+    src: url('./font/icomoon.woff') format('woff'),
+         url('./font/icomoon.eot') format('eot'),
+         url('./font/icomoon.svg') format('svg'),
+         url('./font/icomoon.ttf') format('ttf');
+}
+@font-face {
+    font-family: myFont;
+    src: url('./font/icomoon.woff') format('woff'),
+         url('./font/icomoon.eot') format('eot'),
+         url('./font/icomoon.svg') format('svg'),
+         url('./font/icomoon.ttf') format('ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+body{
+    height: 100%;
+}
+.hello {
+    color: red;
+    background: url('./img/bg.jpg');
+    font-family: myFont;
+}
